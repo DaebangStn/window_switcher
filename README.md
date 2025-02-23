@@ -31,14 +31,19 @@ A lightweight, Tkinter-based window switcher for Linux systems using `wmctrl`. T
    cd WindowSwitcher
    ```
 
-2. **(Optional) Move to a System Path**:
+2. Ensure Executable Permissions: Make sure the window_switcher.py script is executable:
+```
+chmod +x window_switcher.py
+```
+
+3. **(Optional) Move to a System Path**:
    For convenience, you can move the script to a directory in your system’s PATH (e.g., `/usr/local/bin`):
    ```bash
    sudo mv window_switcher.py /usr/local/bin/window_switcher
    ```
    This allows you to run `window_switcher` from anywhere without specifying the full path.
 
-3. **Register the Script to a System Hotkey (Ubuntu)**:
+4. **Register the Script to a System Hotkey (Ubuntu)**:
    To launch WindowSwitcher with a keyboard shortcut (e.g., `Ctrl+Alt+W`), follow these steps:
    - Open the **Settings** application.
    - Navigate to **Keyboard** or **Keyboard Shortcuts** (depending on your Ubuntu version).
