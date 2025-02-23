@@ -2,6 +2,8 @@
 
 A lightweight, Tkinter-based window switcher for Linux systems using `wmctrl`. This application provides a searchable GUI to quickly switch between open windows, enhancing productivity with keyboard-driven navigation.
 
+![Demo](demo.gif)
+
 ## Features
 - **Searchable Window List**: Type in the search bar to filter open windows by ID, class, or title.
 - **Keyboard Navigation**: Use arrow keys to navigate the list circularly, with Enter to switch to the selected window and Esc to exit.
